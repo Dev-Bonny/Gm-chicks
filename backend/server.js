@@ -8,15 +8,14 @@ const compression = require('compression');
 const rateLimit = require('express-rate-limit');
 
 // Import routes
-const authRoutes = require('./src/routes/auth');
-const productRoutes = require('./src/routes/products');
-const orderRoutes = require('./backend/src/routes/backend/src/routes/backend/src/routes/orders');
-const paymentRoutes = require('./src/routes/payments');
-const visitRoutes = require('./src/routes/visits');
-const vaccinationRoutes = require('./src/routes/vaccinations');
-const adminRoutes = require('./src/routes/admin');
-const userRoutes = require('./src/routes/users');
-
+const authRoutes = require('./src/routes/auth.js');
+const productRoutes = require('./src/routes/products.js');
+const orderRoutes = require('./src/routes/orders.js');
+const paymentRoutes = require('./src/routes/payments.js');
+const visitRoutes = require('./src/routes/visits.js');
+const vaccinationRoutes = require('./src/routes/vaccinations.js');
+const adminRoutes = require('./src/routes/admin.js');
+const userRoutes = require('./src/routes/users.js');
 const app = express();
 
 // Security middleware
