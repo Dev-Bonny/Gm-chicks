@@ -16,7 +16,6 @@ const visitRoutes = require('./src/routes/visits.js');
 const vaccinationRoutes = require('./src/routes/vaccinations.js');
 const adminRoutes = require('./src/routes/admin.js');
 const userRoutes = require('./src/routes/users.js');
-const app = express();
 
 // Security middleware
 app.use(helmet());
